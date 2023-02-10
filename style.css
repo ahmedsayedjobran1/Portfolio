@@ -9,6 +9,7 @@
     --mano: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 
+
 }
 
 html {
@@ -30,7 +31,7 @@ body {
 
 section {
     color: white;
-    background-color: var(--hotmaag);
+    /* background-color: var(--hotmaag); */
 }
 
 h1,
@@ -41,7 +42,7 @@ h3 {
 
 /*  link styling  */
 a {
-    color: var(--white);
+    color: var(--hotmaag);
 }
 
 a:hover {
@@ -49,7 +50,74 @@ a:hover {
     color: var(--aqua);
 }
 
-a:active {
-    opacity: 1.5;
+.father {
+    padding-bottom: 10rem;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.intro .name {
+    font-family: var(--mano);
+}
+
+.name span {
+    margin-top: 25px;
+    font-family: var(--sans);
+    font-size: 4rem;
     color: var(--aqua);
+    display: block;
+}
+
+.info {
+    border-radius: 8px;
+    /* display: inline-block; */
+    /* margin-top:-5px; */
+    margin-bottom: 15px;
+    font-size: x-large;
+    margin-bottom: 5px;
+    line-height: 1.7;
+    padding: 2rem;
+    background-color: #ff17e4;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info p {
+    /* text-align: center;
+     */
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.info button {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    background-color: blue;
+
+}
+
+.info button:hover {
+    cursor: pointer;
+}
+
+.info button a {
+    font-size: 25px;
+    opacity: .75;
+    color: white;
+    text-decoration: none;
+}
+
+.info button a:hover {
+    /* font-size: 15px; */
+    opacity: 1;
 }
