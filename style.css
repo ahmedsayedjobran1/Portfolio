@@ -8,6 +8,7 @@
     --font-size: 1.3rem;
     --mano: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
+
 }
 
 html {
@@ -24,4 +25,31 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--sans);
+    background-color: var(--black);
+}
+
+section {
+    color: white;
+    background-color: var(--hotmaag);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+/*  link styling  */
+a {
+    color: var(--white);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--aqua);
+}
+
+a:active {
+    opacity: 1.5;
+    color: var(--aqua);
 }
