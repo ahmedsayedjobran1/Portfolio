@@ -1,5 +1,27 @@
 :root {
-    --red: red;
-    --baxk: white;
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmaag: #ff17e4;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mano: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--sans);
+}
