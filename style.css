@@ -79,7 +79,7 @@ section p {
     font-size: x-large;
     margin-bottom: 5px;
     line-height: 1.7;
-    padding: 2rem;
+    padding: 3rem 0;
     background-color: #ff17e4;
     margin: 0 auto;
     text-align: center;
@@ -120,4 +120,42 @@ section p {
 .info button a:hover {
     /* font-size: 15px; */
     opacity: 1;
+}
+
+h3 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 30px;
+
+}
+
+.fa-solid,
+.fa-linkedin,
+.fa-github {
+    /* margin-right: 5px; */
+    color: var(--aqua);
+}
+
+.fa-solid:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+    cursor: pointer;
+    color: var(--white);
+}
+
+
+
+.nav {
+    font-size: 20px;
+    color: white;
+    /* background-color: var(--aqua); */
 }
